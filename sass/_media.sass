@@ -1,0 +1,189 @@
+@media screen and ( max-width: 1600px )
+  .scrollup
+    background: none
+    flex-direction: column
+    min-width: 5rem
+    &-text
+      order: 2
+      display: none
+    &::after
+      order: 1
+      display: flex
+@media screen and ( max-width: 1200px )
+  html
+    font-size: 12px
+  .nav
+    &__item
+      margin-right: 1rem
+  .scrollup
+    display: none
+    visibility: hidden
+@media screen and ( max-width: 992px )
+  .card
+      margin-bottom: 5rem
+  .row
+    flex-direction: column
+    align-items: center
+  .nav
+    display: none
+  .hero
+    &__instagram
+      display: none
+    &__content
+      margin-left: 0
+  .projects
+    background: $dark
+    &-col
+      width: 100%
+    &__slide
+      width: 100%
+      margin-top: 33px
+      margin-top: 33px
+  .swiper-slide__titles
+    display: none
+  .work
+    &__slide--left
+      width: 100%
+  .work__swiper-slide
+    margin-top: 5rem
+    width: 100%
+  .team
+    &__card
+      margin-bottom: 6.9rem
+      box-shadow: 10px 10px 20px rgba($black, 0.05);
+@media screen and ( max-width: 760px  )
+  body
+    background-color: $dark
+    color: $light
+  .projects__slide
+    width: 100%
+    margin-top: 33px
+  .control
+    color: $light
+    padding-bottom: 5.3rem
+    &__input
+      border-bottom: 1px solid rgba($light , 0.5)
+    &__input::placeholder
+      color: $light
+  .types
+    background-color: $light
+    &__section
+      &-title
+        color: $black
+    &__card
+      margin-bottom: 5rem
+  .card
+    &__text
+      margin-left: 0
+  .design
+    &__card
+      margin-bottom: 5rem
+  .card
+    &__title
+      color: $black
+  .work
+    display: none
+  .team
+    margin-top: 30rem
+  .clients
+    display: none
+  .team
+    &__card
+      margin-bottom: 6.9rem
+      box-shadow: 0 0
+  .footer
+    &__wrap
+      margin-top: 0
+@media screen and ( max-width: 630px )
+  .control
+    &__form
+      display: flex
+      flex-direction: column
+      justify-content: start
+    &__input
+      &-group-name
+        margin-bottom: 64px
+    &__label
+      color: rgba($light, 0.7)
+      margin-bottom: 2px
+    &__button
+      margin: auto
+      margin-top: 2rem
+@media screen and ( max-width: 570px )
+  .control
+    position: relative
+    &__button
+      position: absolute
+      display: flex
+      align-items: center
+      justify-content: center
+      bottom: 0
+      margin-bottom: -20px
+      min-width: 80%
+      order: 1
+    &__policy
+      margin-top: 28px
+      display: flex
+    &__video
+      max-width: 100%
+      min-height: 207px
+  .video__play
+    width: 67px
+  .contacts
+    &__phone
+      margin-right: 0
+      color: $light
+      text-decoration: none
+    &__button
+      display: none
+  .title
+    font-size: 1.64rem
+  .hero
+    &__scroll-down
+      display: none
+    &__content
+      max-width: 22.86rem
+    &__text
+      font-size: 1.29rem
+      margin-bottom: 2.28rem  
+    &__button
+      display: block
+      min-width: 22.86rem
+      margin-bottom: 1.85rem
+  .team-text
+    display: none
+  .footer
+    display: flex
+    order: 2
+    flex-direction: column
+    background: none
+    &__wrap
+      background: none
+    &__map
+      min-height: 255px
+      max-height: 255px
+    &__section-title
+    &__menu
+      display: none
+@media screen and ( max-width: 449px )
+  .footer
+    &__title
+      margin: 0
+    &__input
+      min-width: 100%
+      border-bottom: 1px solid $light
+      &-group
+        margin: 0
+        margin-top: 60px
+        flex-basis: 100%
+        width: 100%
+    &__policy
+    &__button
+      margin-top: 37px
+      max-width: 100%
+      width: 100%
+      
+@media screen and ( max-height: 520px )
+  .hero
+    &__scroll-down
+      display: none
